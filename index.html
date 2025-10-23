@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 SCOREBOARD</title>
+    <link rel="stylesheet" href="css/score.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-bar">
+            <div class="game-logo">
+                <span class="cs">CS</span><span class="two">2</span>
+            </div>
+        </div>
+
+        <div class="scoreboard-main">
+            <div class="team-container team-ct">
+                <div class="team-name" id="ctTeamName">TEAM 1</div>
+                <div class="team-content">
+                    <div class="team-icon">
+                        <div class="icon-ct"></div>
+                    </div>
+                    <div class="team-info">
+                        <div class="team-label">CT</div>
+                        <div class="team-subtitle">COUNTER-TERRORISTS</div>
+                    </div>
+                    <div class="score-container">
+                        <div class="score-number" id="ctScore">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-divider">
+                <div class="divider-line"></div>
+                <div class="divider-icon">⚔</div>
+                <div class="divider-line"></div>
+            </div>
+
+            <div class="team-container team-t">
+                <div class="team-name" id="tTeamName">TEAM 2</div>
+                <div class="team-content">
+                    <div class="score-container">
+                        <div class="score-number" id="tScore">0</div>
+                    </div>
+                    <div class="team-info">
+                        <div class="team-label">T</div>
+                        <div class="team-subtitle">TERRORISTS</div>
+                    </div>
+                    <div class="team-icon">
+                        <div class="icon-t"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/scoreboard.js"></script>
+</body>
+</html>
