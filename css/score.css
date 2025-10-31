@@ -46,7 +46,7 @@ body {
     animation: glow 3s ease-in-out infinite;
 }
 .cs {color: #F49F21;}
-.two {color: #002B87;}
+.two {color: #0066FF;}
 
 .scoreboard-main {
     flex: 1;
@@ -77,7 +77,7 @@ body {
 }
 
 .team-ct .team-name {
-    color: #002B87;
+    color: #0066FF;
 }
 
 .team-t .team-name {
@@ -98,7 +98,7 @@ body {
 
 .team-content:hover {transform: translateY(-5px);}
 
-.team-ct .team-content {border-left: 4px solid #002B87;}
+.team-ct .team-content {border-left: 4px solid #0066FF;}
 .team-ct .team-content:hover {box-shadow: -5px 0 30px rgba(0, 43, 135, 0.5);}
 
 .team-t .team-content {border-right: 4px solid #F49F21; flex-direction: row-reverse;}
@@ -116,8 +116,8 @@ body {
 }
 
 .icon-ct {
-    border-color: #002B87;
-    background: linear-gradient(135deg, rgba(0, 43, 135, 0.3), rgba(0, 43, 135, 0.1));
+    border-color: #0066FF;
+    background: linear-gradient(135deg, rgba(0, 102, 255, 0.3), rgba(0, 102, 255, 0.1));
 }
 
 .icon-t {
@@ -135,8 +135,8 @@ body {
     margin-bottom: 5px;
     transition: text-shadow 0.3s ease;
 }
-.team-ct .team-label {color: #002B87;}
-.team-ct .team-label:hover {text-shadow: 0 0 20px #002B87;}
+.team-ct .team-label {color: #0066FF;}
+.team-ct .team-label:hover {text-shadow: 0 0 20px #0066FF;}
 
 .team-t .team-label {color: #F49F21;}
 .team-t .team-label:hover {text-shadow: 0 0 20px #F49F21;}
@@ -160,7 +160,7 @@ body {
     transition: background 0.3s ease, border-color 0.3s ease;
 }
 
-.team-ct .score-container:hover {border-color: #002B87;}
+.team-ct .score-container:hover {border-color: #0066FF;}
 .team-t .score-container:hover {border-color: #F49F21;}
 
 .score-number {
@@ -171,7 +171,7 @@ body {
     letter-spacing: -5px;
     transition: transform 0.2s ease;
 }
-.team-ct .score-number {color: #002B87;}
+.team-ct .score-number {color: #0066FF;}
 .team-t .score-number {color: #F49F21;}
 
 .score-number.update {animation: scoreUpdate 0.3s ease-out;}
@@ -181,7 +181,7 @@ body {
 .divider-line {
     width: 2px;
     height: 150px;
-    background: linear-gradient(to bottom, transparent, #002B87, #F49F21, transparent);
+    background: linear-gradient(to bottom, transparent, #0066FF, #F49F21, transparent);
 }
 
 .divider-icon {
